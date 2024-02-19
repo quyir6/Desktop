@@ -1,0 +1,1013 @@
+
+.contact-info-section-img-parent{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+@media only screen and (max-width: 500px) {
+  
+  .intro {
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    right: 0;
+  
+    background-image: url(/website/img/vecteezy_cyber-network-protection-future-technology-background_.jpg);
+    background-size: 100% 46.875rem;
+    width: 575px;
+  
+    height: 46.875rem;
+  
+    z-index: 9;
+  
+    box-shadow: 0 0 20px 2px rgb(255, 2, 225);
+    background-size: 100%;
+  }
+  
+  .main-page-img {
+    display: flex;
+    justify-content: center;
+  
+   border-radius: 500px;
+   height: 400px;
+   
+  
+   margin-top: 75px;
+  
+   
+  }
+  
+  .job-title-1{
+    display: flex;
+    justify-content: center;
+  
+    margin-top: -425px;
+  
+  
+    color: rgb(255, 0, 0);
+    text-shadow: rgb(0, 254, 21) 3px 0 10px;
+  
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 35px;
+  }
+  
+  .job-title-2 {
+    display: flex;
+    justify-content: center;
+  
+    margin-top: 475px;
+  
+  
+    color: rgb(255, 0, 0);
+    text-shadow: rgb(0, 254, 21) 3px 0 10px;
+  
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 35px;
+  }
+
+
+  .projects-section {
+    position: absolute;
+    top: 50.875rem;
+    left: 0;
+    right: 0;
+    
+    height: 25rem;
+    width: 575px;
+    
+    background-image: url(/website/img/projects-background.jpeg);
+    background-size: 100% 30rem;
+    
+    box-shadow: 0 0 20px 2px rgb(255, 2, 225);
+    
+    
+    z-index: 8;
+    
+    }
+  
+  .projects-section-header {
+    display: flex;
+    justify-content: center;
+  
+    
+    color: rgb(9, 8, 8);
+    font-family: fantasy;
+    text-shadow: rgb(255, 0, 0) 1px 0 1px;
+  } 
+  
+  .RPS-img-projects {
+    height: 8.5rem;
+    width: 8.5rem;
+    border-radius: 10px;
+    margin-left: 1rem;
+    
+    box-shadow: 0 0 5px 1px rgb(255, 0, 0);
+  }
+
+  .project-section-parent {
+    display: flex;
+    justify-content: center;
+  }
+   
+  .project-section-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+  
+    background-color: transparent;
+    border-radius: 500px;
+    
+    
+    padding: 10px;
+    border: none;
+    box-shadow: 0 0 10px 1px rgb(255, 2, 225);
+    cursor: pointer;
+    font-family: fantasy;
+    font-weight: bold;
+    color: rgb(0, 254, 21);
+    font-size: 18px;
+  
+    text-shadow: rgb(0, 254, 21).1px 0 1px;
+  }
+
+  .aboutme-section {
+    position: absolute;
+    top: 75.875rem;
+    left: 0;
+    right: 0;
+  
+    height: 24rem;
+    width: 575px;
+    background-color: rgb(180, 180, 180);
+    box-shadow: 0 0 20px 2px rgb(255, 2, 225);
+  
+    z-index: 7;
+  }
+  
+  .aboutme-section-header {
+    display: flex;
+    justify-content: center;
+  
+    color: rgb(9, 8, 8);
+    font-family: fantasy;
+    text-shadow: rgb(255, 0, 0) 1px 0 1px;
+    
+  }
+  
+  .aboutme-section-text {
+    color: black;
+    padding: 0 1rem;
+  
+    text-shadow: rgb(0, 254, 21).1px 0 1px;
+  }
+  
+  .aboutme-section-button {
+   display: flex;
+   justify-content: center;
+  
+    background-color: transparent;
+    border-radius: 500px;
+    margin-top: .2rem;
+    
+    padding: 10px;
+    border: none;
+    box-shadow: 0 0 10px 1px rgb(255, 2, 225);
+    cursor: pointer;
+    font-family: fantasy;
+  
+    text-shadow: rgb(0, 254, 21).1px 0 1px;
+  }
+  
+  .aboutme-section-button-parent {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .aboutme-section-button-a {
+    text-decoration: none;
+  }
+
+  .contact-info-section-parent {
+    position: absolute;
+    top: 99.875rem;
+    left: 0;
+    right: 0;
+  
+    height: 15rem;
+    width: 575px;
+    background-color: rgb(180, 180, 180);
+    box-shadow: 0 0 20px 2px rgb(255, 2, 225);
+  
+    z-index: 6;
+  }
+  
+  .contact-info-header {
+    display: flex;
+    justify-content: center;
+  
+    color: rgb(9, 8, 8);
+    font-family: fantasy;
+    text-shadow: rgb(255, 0, 0) 1px 0 1px;
+  }
+
+  .contact-info-section-top {
+    color: black;
+    padding: 0 1rem;
+  
+    text-shadow: rgb(0, 254, 21).1px 0 1px;
+    font-size: .9rem;
+  }
+
+  .contact-info-section-bottom {
+    color: black;
+    padding: 0 1rem;
+  
+    text-shadow: rgb(0, 254, 21).1px 0 1px;
+    font-size: .9rem;
+  }
+
+  
+  .contact-info-section-hyprlnk {
+    text-decoration: none;
+    color: black;
+    padding: 0 2rem;
+  
+    text-shadow: rgb(0, 254, 21).1px 0 1px;
+    font-size: .9rem;
+    margin-left: -30px;
+  }
+
+  .contact-info-section-img {
+    mix-blend-mode: color-burn;
+    background: transparent;
+    height: 2rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+  }
+  
+  .contact-info-section-img-1 {
+    mix-blend-mode: color-burn;
+    background: transparent;
+    height: 2rem;
+    margin-left: 6px;
+  }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 501px) {
+  .intro {
+    position: absolute;
+    top: 5rem;
+    left: 0;
+    right: 0;
+  
+    background-image: url(/website/img/vecteezy_cyber-network-protection-future-technology-background_.jpg);
+    background-size: 100% 50rem;
+    width: 800px;
+  
+    height: 50rem;
+  
+    z-index: 9;
+  
+    box-shadow: 0 0 20px 2px rgb(255, 2, 225);
+  }
+  
+  .main-page-img {
+    display: flex;
+    justify-content: center;
+  
+   border-radius: 500px;
+   height: 500px;
+   
+  
+   margin-top: 75px;
+  
+   
+  }
+  
+  .job-title-1{
+    display: flex;
+    justify-content: center;
+  
+    margin-top: -500px;
+  
+  
+    color: rgb(255, 0, 0);
+    text-shadow: rgb(0, 254, 21) 3px 0 10px;
+  
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 35px;
+  }
+  
+  .job-title-2 {
+    display: flex;
+    justify-content: center;
+  
+    margin-top: 500px;
+  
+  
+    color: rgb(255, 0, 0);
+    text-shadow: rgb(0, 254, 21) 3px 0 10px;
+  
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 35px;
+  }
+
+  .projects-section {
+    position: absolute;
+    top: 55rem;
+    left: 0;
+    right: 0;
+    
+    height: 30rem;
+    width: 800px;
+    
+    background-image: url(/website/img/projects-background.jpeg);
+    background-size: 100% 30rem;
+    
+    box-shadow: 0 0 20px 2px rgb(255, 2, 225);
+    
+    
+    z-index: 8;
+    
+    }
+  
+  .projects-section-header {
+    display: flex;
+    justify-content: center;
+  
+    
+    color: rgb(9, 8, 8);
+    font-family: fantasy;
+    text-shadow: rgb(255, 0, 0) 1px 0 1px;
+    font-size: 30px;
+  } 
+  
+  .RPS-img-projects {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 10px;
+    margin-left: 1rem;
+    
+    box-shadow: 0 0 5px 1px rgb(255, 0, 0);
+  }
+
+  .project-section-parent {
+    display: flex;
+    justify-content: center;
+  }
+   
+  .project-section-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+  
+    background-color: transparent;
+    border-radius: 500px;
+    
+    
+    padding: 10px;
+    border: none;
+    box-shadow: 0 0 10px 1px rgb(255, 2, 225);
+    cursor: pointer;
+    font-family: fantasy;
+    font-weight: bold;
+    color: rgb(0, 254, 21);
+    font-size: 18px;
+  
+    text-shadow: rgb(0, 254, 21).1px 0 1px;
+  }
+
+  .aboutme-section {
+    position: absolute;
+    top: 85rem;
+    left: 0;
+    right: 0;
+  
+    height: 22rem;
+    width: 800px;
+    background-color: rgb(180, 180, 180);
+    box-shadow: 0 0 20px 2px rgb(255, 2, 225);
+  
+    z-index: 7;
+  }
+  
+  .aboutme-section-header {
+    display: flex;
+    justify-content: center;
+  
+    color: rgb(9, 8, 8);
+    font-family: fantasy;
+    text-shadow: rgb(255, 0, 0) 1px 0 1px;
+    
+  }
+  
+  .aboutme-section-text {
+    color: black;
+    padding: 0 1rem;
+  
+    text-shadow: rgb(0, 254, 21).1px 0 1px;
+  }
+  
+  .aboutme-section-button {
+   display: flex;
+   justify-content: center;
+  
+    background-color: transparent;
+    border-radius: 500px;
+    margin-top: .2rem;
+    
+    padding: 10px;
+    border: none;
+    box-shadow: 0 0 10px 1px rgb(255, 2, 225);
+    cursor: pointer;
+    font-family: fantasy;
+  
+    text-shadow: rgb(0, 254, 21).1px 0 1px;
+    font-size: 18px;
+  }
+  
+  .aboutme-section-button-parent {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .aboutme-section-button-a {
+    text-decoration: none;
+  }
+
+  .contact-info-section-parent {
+    position: absolute;
+    top: 107rem;
+    left: 0;
+    right: 0;
+  
+    height: 17rem;
+    width: 800px;
+    background-color: rgb(180, 180, 180);
+    box-shadow: 0 0 20px 2px rgb(255, 2, 225);
+  
+    z-index: 6;
+  }
+  
+  .contact-info-header {
+    display: flex;
+    justify-content: center;
+  
+    color: rgb(9, 8, 8);
+    font-family: fantasy;
+    text-shadow: rgb(255, 0, 0) 1px 0 1px;
+  }
+
+  .contact-info-section-top {
+    color: black;
+    padding: 0 1rem;
+  
+    text-shadow: rgb(0, 254, 21).1px 0 1px;
+    font-size: 1.5rem;
+  }
+
+  .contact-info-section-bottom {
+    color: black;
+    padding: 0 1rem;
+  
+    text-shadow: rgb(0, 254, 21).1px 0 1px;
+    font-size: 1.5rem;
+  }
+
+  
+  .contact-info-section-hyprlnk {
+    text-decoration: none;
+    color: black;
+    padding: 0 2rem;
+  
+    text-shadow: rgb(0, 254, 21).1px 0 1px;
+    font-size: 1.5rem;
+    margin-left: -30px;
+  }
+
+  .contact-info-section-img {
+    mix-blend-mode: color-burn;
+    background: transparent;
+    height: 3rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+  }
+  
+  .contact-info-section-img-1 {
+    mix-blend-mode: color-burn;
+    background: transparent;
+    height: 3rem;
+    margin-left: 6px;
+  }
+}
+
+@media only screen and (max-width: 1025px) and (min-width: 801px) {
+  .intro {
+    position: absolute;
+    top: 5rem;
+    left: 0;
+    right: 0;
+  
+    background-image: url(/website/img/vecteezy_cyber-network-protection-future-technology-background_.jpg);
+    background-size: 100% 60rem;
+  
+    height: 60rem;
+    width: 1230px;
+  
+    z-index: 9;
+  
+    box-shadow: 0 0 20px 2px rgb(255, 2, 225);
+  }
+
+  .main-page-img {
+    display: flex;
+    justify-content: center;
+  
+   border-radius: 500px;
+   height: 500px;
+   
+  
+   margin-top: 6rem;
+  
+   
+  }
+
+  .job-title-1{
+    display: flex;
+    justify-content: center;
+  
+    margin-top: -500px;
+  
+  
+    color: rgb(255, 0, 0);
+    text-shadow: rgb(0, 254, 21) 3px 0 10px;
+  
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 55px;
+  }
+  
+  .job-title-2 {
+    display: flex;
+    justify-content: center;
+  
+    margin-top: 500px;
+  
+  
+    color: rgb(255, 0, 0);
+    text-shadow: rgb(0, 254, 21) 3px 0 10px;
+  
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 55px;
+  }
+
+  .projects-section {
+    position: absolute;
+    top: 65rem;
+    left: 0;
+    right: 0;
+    
+    height: 50rem;
+    width: 1230px;
+    
+    background-image: url(/website/img/projects-background.jpeg);
+    background-size: 100% 50rem;
+    
+    box-shadow: 0 0 20px 2px rgb(255, 2, 225);
+    
+    
+    z-index: 8;
+    
+    }
+  
+  .projects-section-header {
+    display: flex;
+    justify-content: center;
+  
+    
+    color: rgb(9, 8, 8);
+    font-family: fantasy;
+    text-shadow: rgb(255, 0, 0) 1px 0 1px;
+    font-size: 40px;
+  } 
+  
+  .RPS-img-projects {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 10px;
+    margin-left: 1rem;
+    
+    box-shadow: 0 0 5px 1px rgb(255, 0, 0);
+  }
+
+  .project-section-parent {
+    display: flex;
+    justify-content: center;
+  }
+   
+  .project-section-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+  
+    background-color: transparent;
+    border-radius: 500px;
+    
+    
+    padding: 10px;
+    border: none;
+    box-shadow: 0 0 10px 1px rgb(255, 2, 225);
+    cursor: pointer;
+    font-family: fantasy;
+    font-weight: bold;
+    color: rgb(0, 254, 21);
+    font-size: 30px;
+  
+    text-shadow: rgb(9,8,8) 1px 0 1px;
+  }
+
+  .aboutme-section {
+    position: absolute;
+    top: 115rem;
+    left: 0;
+    right: 0;
+  
+    height: 35rem;
+    width: 1230px;
+    background-color: rgb(180, 180, 180);
+    box-shadow: 0 0 20px 2px rgb(255, 2, 225);
+  
+    z-index: 7;
+  }
+  
+  .aboutme-section-header {
+    display: flex;
+    justify-content: center;
+  
+    color: rgb(9, 8, 8);
+    font-family: fantasy;
+    text-shadow: rgb(255, 0, 0) 1px 0 1px;
+    font-size: 40px;
+  }
+  
+  .aboutme-section-text {
+    color: black;
+    padding: 0 1rem;
+  
+    text-shadow: rgb(0, 254, 21).1px 0 1px;
+    font-size: 30px;
+  }
+  
+  .aboutme-section-button {
+   display: flex;
+   justify-content: center;
+  
+    background-color: transparent;
+    border-radius: 500px;
+    margin-top: 2rem;
+    
+    padding: 10px;
+    border: none;
+    box-shadow: 0 0 10px 1px rgb(255, 2, 225);
+    cursor: pointer;
+    font-family: fantasy;
+  
+    text-shadow: rgb(0, 254, 21).1px 0 1px;
+    font-size: 30px;
+  }
+  
+  .aboutme-section-button-parent {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .aboutme-section-button-a {
+    text-decoration: none;
+  }
+
+  .contact-info-section-parent {
+    position: absolute;
+    top: 150rem;
+    left: 0;
+    right: 0;
+  
+    height: 30rem;
+    width: 1230px;
+    background-color: rgb(180, 180, 180);
+    box-shadow: 0 0 20px 2px rgb(255, 2, 225);
+  
+    z-index: 6;
+  }
+  
+  .contact-info-header {
+    display: flex;
+    justify-content: center;
+  
+    color: rgb(9, 8, 8);
+    font-family: fantasy;
+    text-shadow: rgb(255, 0, 0) 1px 0 1px;
+    font-size: 40px;
+  }
+
+  .contact-info-section-top {
+    color: black;
+    padding: 0 1rem;
+  
+    text-shadow: rgb(0, 254, 21).1px 0 1px;
+    font-size: 2.3rem;
+  }
+
+  .contact-info-section-bottom {
+    color: black;
+    padding: 0 1rem;
+  
+    text-shadow: rgb(0, 254, 21).1px 0 1px;
+    font-size: 2.3rem;
+  }
+
+  
+  .contact-info-section-hyprlnk {
+    text-decoration: none;
+    color: black;
+    padding: 0 2rem;
+  
+    text-shadow: rgb(0, 254, 21).1px 0 1px;
+    font-size: 2.3rem;
+    margin-left: -30px;
+  }
+
+  .contact-info-section-img {
+    mix-blend-mode: color-burn;
+    background: transparent;
+    height: 4rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+  }
+  
+  .contact-info-section-img-1 {
+    mix-blend-mode: color-burn;
+    background: transparent;
+    height: 4rem;
+    margin-left: 6px;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .intro {
+    position: absolute;
+    top: 8rem;
+    left: 0;
+    right: 0;
+  
+    background-image: url(/website/img/vecteezy_cyber-network-protection-future-technology-background_.jpg);
+    background-size: 100% 60rem;
+  
+    height: 60rem;
+    width: 1445px;
+  
+    z-index: 9;
+  
+    box-shadow: 0 0 20px 2px rgb(255, 2, 225);
+  }
+
+  .main-page-img {
+    display: flex;
+    justify-content: center;
+  
+   border-radius: 500px;
+   height: 600px;
+   
+  
+   margin-top: 6rem;
+  
+   
+  }
+
+  .job-title-1{
+    display: flex;
+    justify-content: center;
+  
+    margin-top: -620px;
+  
+  
+    color: rgb(255, 0, 0);
+    text-shadow: rgb(0, 254, 21) 3px 0 10px;
+  
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 70px;
+  }
+  
+  .job-title-2 {
+    display: flex;
+    justify-content: center;
+  
+    margin-top: 550px;
+  
+  
+    color: rgb(255, 0, 0);
+    text-shadow: rgb(0, 254, 21) 3px 0 10px;
+  
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 70px;
+  }
+
+  .projects-section {
+    position: absolute;
+    top: 68rem;
+    left: 0;
+    right: 0;
+    
+    height: 60rem;
+    width: 100%;
+    
+    background-image: url(/website/img/projects-background.jpeg);
+    background-size: 100% 60rem;
+    
+    box-shadow: 0 0 20px 2px rgb(255, 2, 225);
+    
+    
+    z-index: 8;
+    
+    }
+
+    .projects-section-header {
+      display: flex;
+      justify-content: center;
+    
+      
+      color: rgb(9, 8, 8);
+      font-family: fantasy;
+      text-shadow: rgb(255, 0, 0) 1px 0 1px;
+      font-size: 50px;
+    } 
+    
+    .RPS-img-projects {
+      height: 20rem;
+      width: 20rem;
+      border-radius: 10px;
+      margin-left: 1rem;
+      
+      box-shadow: 0 0 5px 1px rgb(255, 0, 0);
+    }
+  
+    .project-section-parent {
+      display: flex;
+      justify-content: center;
+    }
+     
+    .project-section-button {
+      display: flex;
+      justify-content: center;
+      margin-top: 5rem;
+    
+      background-color: transparent;
+      border-radius: 500px;
+      
+      
+      padding: 10px;
+      border: none;
+      box-shadow: 0 0 10px 1px rgb(255, 2, 225);
+      cursor: pointer;
+      font-family: fantasy;
+      font-weight: bold;
+      color: rgb(0, 254, 21);
+      font-size: 40px;
+    
+      text-shadow: rgb(9,8,8) 1px 0 1px;
+    }
+
+    .aboutme-section {
+      position: absolute;
+      top: 128rem;
+      left: 0;
+      right: 0;
+    
+      height: 40rem;
+      width: 1440px;
+      background-color: rgb(180, 180, 180);
+      box-shadow: 0 0 20px 2px rgb(255, 2, 225);
+    
+      z-index: 7;
+    }
+    
+    .aboutme-section-header {
+      display: flex;
+      justify-content: center;
+    
+      color: rgb(9, 8, 8);
+      font-family: fantasy;
+      text-shadow: rgb(255, 0, 0) 1px 0 1px;
+      font-size: 50px;
+    }
+    
+    .aboutme-section-text {
+      color: black;
+      padding: 0 1rem;
+    
+      text-shadow: rgb(0, 254, 21).1px 0 1px;
+      font-size: 35px;
+    }
+    
+    .aboutme-section-button {
+     display: flex;
+     justify-content: center;
+    
+      background-color: transparent;
+      border-radius: 500px;
+      margin-top: 2rem;
+      
+      padding: 10px;
+      border: none;
+      box-shadow: 0 0 10px 1px rgb(255, 2, 225);
+      cursor: pointer;
+      font-family: fantasy;
+    
+      text-shadow: rgb(0, 254, 21).1px 0 1px;
+      font-size: 40px;
+    }
+    
+    .aboutme-section-button-parent {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .aboutme-section-button-a {
+      text-decoration: none;
+    }
+
+    .contact-info-section-parent {
+      position: absolute;
+      top: 168rem;
+      left: 0;
+      right: 0;
+    
+      height: 30rem;
+      width: 100%;
+      background-color: rgb(180, 180, 180);
+      box-shadow: 0 0 20px 2px rgb(255, 2, 225);
+    
+      z-index: 6;
+    }
+    
+    .contact-info-header {
+      display: flex;
+      justify-content: center;
+    
+      color: rgb(9, 8, 8);
+      font-family: fantasy;
+      text-shadow: rgb(255, 0, 0) 1px 0 1px;
+      font-size: 40px;
+    }
+  
+    .contact-info-section-top {
+      color: black;
+      padding: 0 1rem;
+    
+      text-shadow: rgb(0, 254, 21).1px 0 1px;
+      font-size: 2.3rem;
+    }
+  
+    .contact-info-section-bottom {
+      color: black;
+      padding: 0 1rem;
+    
+      text-shadow: rgb(0, 254, 21).1px 0 1px;
+      font-size: 2.3rem;
+    }
+  
+    
+    .contact-info-section-hyprlnk {
+      text-decoration: none;
+      color: black;
+      padding: 0 2rem;
+    
+      text-shadow: rgb(0, 254, 21).1px 0 1px;
+      font-size: 2.3rem;
+      margin-left: -30px;
+    }
+  
+    .contact-info-section-img {
+      mix-blend-mode: color-burn;
+      background: transparent;
+      height: 4rem;
+      margin-right: 5rem;
+      margin-left: 5rem;
+    }
+    
+    .contact-info-section-img-1 {
+      mix-blend-mode: color-burn;
+      background: transparent;
+      height: 4rem;
+      margin-left: 6px;
+    }
+}
