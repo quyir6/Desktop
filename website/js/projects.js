@@ -16,6 +16,10 @@ const projects = [{
   buttonPageLink: '/website/todo-list.html',
   buttonText: 'See ToDo List Project',
   buttonDownloadLink:'/website/todo-list-download.html'
+}, {
+  header: 'React Tic Tac Toe',
+  text: "I've built a Tic Tac Toe game using React.js. The game is composed of three main components: Square, Board, and Game. The Square component represents each square in the game grid, while the Board component renders the 3x3 grid of squares and handles click events for each square. Within the Game component, I've managed the game state and logic, including tracking moves, determining the winner, and handling player turns. Additionally, I've added CSS styling to enhance the visual appeal of the game. By integrating these components into the main App component and starting the React app, users can play Tic Tac Toe directly in their web browser. It serves as a hands-on introduction to building interactive web applications with React.js, showcasing how to manage state, handle events, and create reusable components to create a fun and engaging game experience.",
+  buttonDownloadLink:'/tic-tac-toe'
 }];
 
 let projectsHTML = '';
