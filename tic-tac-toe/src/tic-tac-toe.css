@@ -67,3 +67,18 @@ ol {
 .game-moves {
   color: rgb(40, 203, 187);
 }
+
+.reset-game{
+  border: none;
+  padding: 10px;
+  background: transparent;
+  color: rgb(40, 203, 187);
+  font-size: 25px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.reset-game-parent {
+  display: flex;
+  justify-content: center;
+}

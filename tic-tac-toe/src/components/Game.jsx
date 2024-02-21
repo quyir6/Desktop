@@ -2,6 +2,8 @@
 import React from 'react';
 import Board from './Board';
 
+
+
 class Game extends React.Component {
   constructor(props) {
     super(props);
@@ -12,6 +14,7 @@ class Game extends React.Component {
     };
   }
 
+
   handleClick(i) {
     const history = this.state.history.slice(0, this.state.stepNumber + 1);
     const current = history[history.length - 1];
@@ -20,6 +23,7 @@ class Game extends React.Component {
     if (calculateWinner(squares) || squares[i]) {
       return;
     }
+
 
     squares[i] = this.state.xIsNext ? 'X' : 'O';
 
@@ -59,7 +63,7 @@ class Game extends React.Component {
     }
 
     return (
-      <div className="game">
+      <div><div className="game">
         <div className="game-board">
           <Board squares={current.squares} onClick={(i) => this.handleClick(i)} />
         </div>
@@ -67,7 +71,7 @@ class Game extends React.Component {
           <h2 className='game-header'>{status}</h2>
           <ol className='game-moves'>{moves}</ol>
         </div>
-      </div>
+      </div></div>
     );
   }
 }
