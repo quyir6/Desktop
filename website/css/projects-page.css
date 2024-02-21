@@ -1,9 +1,3 @@
-.top-projects {
-  padding-top: 100px;
-  color: #519872;
-  font-family: fantasy;
-}
-
 .project-buttons {
   border-radius: 1000px;
   background-color: transparent;
@@ -25,9 +19,11 @@
   margin-top: 6rem;
   color: #519872;
   font-family: fantasy;
+  text-indent: 0;
 }
 
 .projects-body {
   margin-right: 10%;
   margin-left: 10%;
+  text-indent: 0.5in;
 }
