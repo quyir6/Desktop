@@ -1,0 +1,30 @@
+.AppHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10vh;
+  background-color: blue;
+}
+
+.ChatBubble {
+  position: fixed;
+  top: 3vh;
+  left: 5vh;
+  transform: scale(2);
+  color: blueviolet;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: blueviolet;
+}
+
+.AccountIcon {
+  position: fixed;
+  top: 3vh;
+  right: 5vh;
+  transform: scale(2);
+  color: blueviolet;
+}
