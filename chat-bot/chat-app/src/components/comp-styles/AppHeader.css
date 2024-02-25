@@ -4,27 +4,35 @@
   left: 0;
   right: 0;
   height: 10vh;
-  background-color: blue;
+  background-color: darkblue;
+  z-index: 100;
 }
 
-.ChatBubble {
+.ChatBubbleParent {
   position: fixed;
   top: 3vh;
   left: 5vh;
-  transform: scale(2);
+}
+.ChatBubble {
   color: blueviolet;
+  transform: scale(2);
+}
+.AccountIconParent {
+  position: fixed;
+  top: 3vh;
+  right: 5vh;
+  float: right;
+}
+
+.AccountIcon {
+  color: blueviolet;
+  transform: scale(2);
 }
 
 h1 {
   display: flex;
   justify-content: center;
   color: blueviolet;
-}
-
-.AccountIcon {
-  position: fixed;
-  top: 3vh;
-  right: 5vh;
-  transform: scale(2);
-  color: blueviolet;
+  position: relative;
+  top: -5vh;
 }

@@ -1,0 +1,10 @@
+.MessageBox {
+  background-color: gray;
+  position: relative;
+  top: 9vh;
+  right: 0;
+  left: 20vw;
+  height: 90vh;
+  width: 80vw;
+  z-index: 10;
+}
