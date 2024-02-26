@@ -1,18 +1,16 @@
 .Logo {
   margin-left: 2vw;
   height: 11vh;
-  z-index: 999;
 }
 
 .header {
   position: absolute;
-  top: 5vh;
+  top: 3vh;
   left: 0;
   right: 0;
   width: 100%;
   height: 12vh;
   background-color: white;
-  z-index: 10;
 }
 
 .nav {
@@ -20,7 +18,7 @@
   justify-content: end;
   padding-left: 2vw;
   position: relative;
-  top: -4vh;
+  top: -5vh;
   font-size: 20px;
   font-weight: bold;
   margin-left: 3vw;
@@ -29,19 +27,19 @@
 
 .redbar {
   position: absolute;
-  top: 17vh;
+  top: 15vh;
   left: 0;
   right: 0;
-  background-color: darkred;
+  background-color: #a72120;
   height: 1.5vh;
 }
 
 .yellowbar {
   position: absolute;
-  top: 18.5vh;
+  top: 16.5vh;
   left: 0;
   right: 0;
-  background-color: yellow;
+  background-color: #d0c537;
   height: 1vh;
 }
 
@@ -59,5 +57,5 @@
   left: 0;
   right: 0;
   background-color: rgb(255, 59, 59);
-  height: 5vh;
+  height: 3vh;
 }

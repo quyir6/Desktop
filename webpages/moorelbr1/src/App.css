@@ -1,3 +1,22 @@
 body {
   background-color: darkgray;
 }
+
+.Logo {
+  z-index: 999;
+}
+
+.header {
+  z-index: 100;
+}
+
+.store {
+  z-index: 10;
+}
+.text {
+  z-index: 10;
+}
+
+header {
+  z-index: 999999;
+}
