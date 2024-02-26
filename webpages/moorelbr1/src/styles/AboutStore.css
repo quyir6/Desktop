@@ -1,0 +1,15 @@
+.store {
+  position: fixed;
+  top: 23vh;
+  left: 5vw;
+  border-radius: 5%;
+  height: 70vh;
+  z-index: 9;
+}
+
+.text h2 {
+  position: fixed;
+  top: 25vh;
+  float: right;
+  z-index: 20;
+}
