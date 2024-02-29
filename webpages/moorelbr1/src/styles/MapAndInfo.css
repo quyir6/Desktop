@@ -1,0 +1,9 @@
+.MapAndInfo {
+  height: 50rem;
+  position: fixed;
+  top: 50rem;
+}
+
+.Map {
+  height: 400px;
+}

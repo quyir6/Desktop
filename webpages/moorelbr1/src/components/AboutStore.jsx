@@ -4,7 +4,7 @@ import "../styles/AboutStore.css";
 
 const AboutStore = () => {
   return (
-    <>
+    <div className="AboutStore">
       <h1 className="h1head">
         Welcome to Moore Lumber & Hardware & Ace Hardware Bennett
       </h1>
@@ -34,7 +34,7 @@ const AboutStore = () => {
           about Moore Lumber Bennett location.
         </p>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -1,9 +1,13 @@
+.AboutStore {
+  height: 50rem;
+}
 .store {
-  position: fixed;
-  top: 25vh;
+  position: relative;
+  top: 15rem;
   left: 5vw;
   border-radius: 5%;
-  height: 70vh;
+  height: 35rem;
+  width: auto;
 }
 
 .h2text {
@@ -21,16 +25,16 @@
 }
 
 .text {
-  position: fixed;
-  top: 26vh;
+  position: relative;
+  top: 16rem;
   right: 0;
   margin-right: 2vw;
-  width: 30vw;
+  width: 30rem;
 }
 
 h1 {
-  position: fixed;
-  top: 16vh;
+  position: relative;
+  top: 10rem;
   display: flex;
   justify-content: center;
   width: 100%;

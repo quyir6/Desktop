@@ -1,0 +1,378 @@
+body {
+  background-color: darkgray;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.Logo {
+  margin-left: 2vw;
+  height: 5rem;
+  z-index: 999;
+  mix-blend-mode: color-burn;
+}
+
+.header {
+  position: fixed;
+  top: 1.5rem;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 6rem;
+  background-color: lightgray;
+  z-index: 999;
+}
+
+.nav {
+  font-size: 1.2em;
+  margin-left: 5vw;
+  font-weight: bolder;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.redbar {
+  position: fixed;
+  top: 7.5rem;
+  left: 0;
+  right: 0;
+  background-color: #a72120;
+  height: 0.8rem;
+  z-index: 999;
+}
+
+.yellowbar {
+  position: fixed;
+  top: 8.3rem;
+  left: 0;
+  right: 0;
+  background-color: #d0c537;
+  height: 0.6rem;
+  z-index: 999;
+}
+
+.search {
+  height: 1.5rem;
+  z-index: 999;
+}
+
+.navparent {
+  z-index: 999;
+  position: fixed;
+  top: 2rem;
+  right: 0;
+  margin-right: 5vw;
+}
+
+.expand {
+  position: fixed;
+  top: 3.5rem;
+}
+
+.redbar2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(255, 59, 59);
+  height: 1.5rem;
+  z-index: 999;
+}
+
+.AboutStore {
+  height: 50rem;
+}
+.store {
+  position: relative;
+  top: 12rem;
+  left: 3vw;
+  border-radius: 5%;
+  width: 55%;
+}
+
+.h2text {
+  display: flex;
+  justify-content: center;
+  color: #211e5e;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.ptext {
+  display: flex;
+  justify-self: center;
+  text-align: center;
+  font-size: large;
+  color: #211e5e;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.textparent {
+  position: relative;
+  top: -21rem;
+  margin-right: 4vw;
+}
+
+.text {
+  width: 35%;
+  float: right;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(33, 30, 94, 1);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(33, 30, 94, 1);
+  box-shadow: 0px 0px 20px 0px rgba(33, 30, 94, 1);
+  border-radius: 2%;
+}
+
+.h1head {
+  position: relative;
+  top: 10rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: #a72120;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.MapAndInfoMap {
+  position: relative;
+  top: 3rem;
+  left: 3vw;
+}
+
+.Map {
+  width: 55%;
+  border: none;
+  border-radius: 5%;
+  height: 35rem;
+}
+
+.infoparent {
+  height: 35rem;
+  width: 40%;
+  position: relative;
+  margin-right: 4vw;
+  float: right;
+  top: -35rem;
+  border-radius: 2%;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(33, 30, 94, 1);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(33, 30, 94, 1);
+  box-shadow: 0px 0px 20px 0px rgba(33, 30, 94, 1);
+}
+
+.infohead {
+  display: flex;
+  justify-content: center;
+  color: #211e5e;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.address {
+  font-size: 0.9em;
+  font-weight: normal;
+  text-decoration: none;
+  color: #a72120;
+  display: flex;
+  justify-content: center;
+}
+
+.addressh3 {
+  color: #a72120;
+  display: flex;
+  justify-content: center;
+}
+
+.infoicon {
+  position: relative;
+  top: 0.25rem;
+  display: flex;
+  justify-content: center;
+  color: #211e5e;
+}
+
+.Deliv {
+  position: relative;
+  top: -25rem;
+  height: 20rem;
+  width: 30vw;
+  border-radius: 2%;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(33, 30, 94, 1);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(33, 30, 94, 1);
+  box-shadow: 0px 0px 20px 0px rgba(33, 30, 94, 1);
+}
+
+.ServAndDeliv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.fasttruckicon {
+  display: flex;
+  justify-content: center;
+  color: #211e5e;
+}
+
+.servdelivh2 {
+  display: flex;
+  justify-content: center;
+  color: #211e5e;
+}
+
+.servdelivtext {
+  display: flex;
+  justify-content: center;
+  color: #a72120;
+  margin: 2rem;
+}
+
+.servdelivtexta {
+  text-decoration: none;
+  margin-left: 5px;
+  color: #a72120;
+}
+
+.serv {
+  position: relative;
+  top: -25rem;
+  height: 20rem;
+  width: 30vw;
+  border-radius: 2%;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(33, 30, 94, 1);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(33, 30, 94, 1);
+  box-shadow: 0px 0px 20px 0px rgba(33, 30, 94, 1);
+}
+
+.servtext {
+  display: flex;
+  justify-content: center;
+  color: #a72120;
+  margin-bottom: 1.5rem;
+}
+
+.servh2 {
+  display: flex;
+  justify-content: center;
+  color: #211e5e;
+}
+
+.fa-toolbox {
+  margin-right: 5px;
+}
+
+.fa-house-chimney-window {
+  margin-right: 5px;
+}
+
+.fa-paint-roller {
+  margin-right: 5px;
+}
+
+.fa-key {
+  margin-right: 5px;
+}
+
+.fa-scissors {
+  margin-right: 5px;
+}
+
+.serv2 {
+  position: relative;
+  top: -25rem;
+  height: 20rem;
+  width: 30vw;
+  border-radius: 2%;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(33, 30, 94, 1);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(33, 30, 94, 1);
+  box-shadow: 0px 0px 20px 0px rgba(33, 30, 94, 1);
+}
+
+.servtext2 {
+  display: flex;
+  justify-content: center;
+  color: #a72120;
+  margin-bottom: 1rem;
+}
+
+.fa-truck {
+  margin-right: 5px;
+}
+
+.fa-landmark {
+  margin-right: 5px;
+}
+
+.fa-handshake {
+  margin-right: 5px;
+}
+
+.fa-map {
+  margin-right: 5px;
+}
+
+.fa-money-bills {
+  margin-right: 5px;
+}
+
+.fa-ruler {
+  margin-right: 5px;
+}
+
+.fa-user {
+  margin-right: 5px;
+}
+
+.fa-clock {
+  margin-right: 5px;
+}
+
+.OurTeam {
+  position: relative;
+  top: -20rem;
+  border-radius: 2%;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(33, 30, 94, 1);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(33, 30, 94, 1);
+  box-shadow: 0px 0px 20px 0px rgba(33, 30, 94, 1);
+  width: 90vw;
+  left: 5vw;
+  padding-bottom: 1rem;
+}
+
+.teamh1 {
+  display: flex;
+  justify-content: center;
+  color: #211e5e;
+  position: relative;
+  top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.manager {
+  border-radius: 10%;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(33, 30, 94, 1);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(33, 30, 94, 1);
+  box-shadow: 0px 0px 20px 0px rgba(33, 30, 94, 1);
+  width: 15vw;
+  height: 6rem;
+}
+.managerparent {
+  display: flex;
+  justify-content: center;
+}
+
+.teamtitle {
+  display: flex;
+  justify-content: end;
+  color: #a72120;
+  position: relative;
+  top: -6rem;
+  margin-right: 2rem;
+}
+.teamname {
+  display: flex;
+  justify-content: end;
+  color: #a72120;
+  position: relative;
+  top: -6rem;
+  margin-right: 2rem;
+}
+.teampicture {
+  height: 5rem;
+  mix-blend-mode: color-burn;
+}
