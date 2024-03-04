@@ -2,7 +2,7 @@ let secondcmmnd = [
   {
     ndpic: "/moorelbrhtml/mooreimg/profile.webp",
     ndtitle: "Yard Manager",
-    ndname: "Ken Vaughn",
+    ndname: "Ken",
   },
   {
     ndpic: "/moorelbrhtml/mooreimg/profile.webp",
@@ -21,7 +21,7 @@ let secondcmmndHTML = "";
 secondcmmnd.forEach((ndmemb) => {
   secondcmmndHTML += `
    <div class="beside">
-      <img src="${ndmemb.ndpic}" class="teampicture" />
+      <img src="${ndmemb.ndpic}" class="teampicture" alt="profile" />
       <h3 class="ndtitle">${ndmemb.ndtitle}</h3>
       <p class="ndname">${ndmemb.ndname}</p>
     </div>

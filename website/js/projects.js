@@ -7,6 +7,13 @@ const projects = [
     buttonDownloadLink: "/moorelbrhtml/moorelbr.html",
   },
   {
+    header: "Moore Lumber Shopping Page",
+    text: "Placeholder text",
+    buttonPageLink: "/moorelbrhtml/moorelbrshopping.html",
+    buttonText: "View Moore Lumber Shopping Page",
+    buttonDownloadLink: "/moorelbrhtml/moorelbrshopping.html",
+  },
+  {
     header: "Rock Paper Scissors Game",
     text: "The Rock Paper Scissors game is a classic interactive web-based project designed using HTML, CSS, and JavaScript. Users can play against the computer by selecting one of three moves: rock, paper, or scissors. The interface provides intuitive buttons for each move and dynamically updates the result of each round. Additionally, the game keeps track of the user's score, including wins, losses, and ties, which persists using local storage. A reset score button allows users to reset their score and start anew. The project's CSS styling enhances the visual appeal of the game, with bold typography and crisp iconography. Overall, the Rock Paper Scissors game offers an engaging and enjoyable experience for users of all ages.",
     buttonPageLink: "/rock-paper-scissors.html",

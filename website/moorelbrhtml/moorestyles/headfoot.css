@@ -20,6 +20,7 @@
   margin-left: 5vw;
   font-weight: bolder;
   font-family: "Times New Roman", Times, serif;
+  color: #211e5e;
 }
 
 .redbar {
@@ -76,6 +77,9 @@ footer {
   right: 0;
   background-color: rgba(30, 30, 70, 0.874);
   height: 50rem;
+  width: 100%;
+  overflow-x: clip;
+  margin-top: 5rem;
 }
 
 .mrlbr {
