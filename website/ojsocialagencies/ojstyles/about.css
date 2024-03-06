@@ -1,0 +1,17 @@
+.head {
+  position: relative;
+  top: 10rem;
+  text-align: center;
+}
+
+.head h1 {
+  color: whitesmoke;
+}
+
+.about-text {
+  position: relative;
+  top: 10rem;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 1.5em;
+}

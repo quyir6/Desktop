@@ -1,3 +1,4 @@
+//These are the different products, update it to add or remove products
 const products = [
   {
     image: "/moorelbrhtml/mooreimg/2x4.jpeg",

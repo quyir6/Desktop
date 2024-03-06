@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(40, 40, 40);
+}
+
+header {
+  height: 15vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: whitesmoke;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: -6rem;
+}
+
+header a {
+  text-decoration: none;
+  color: rgb(27, 25, 25);
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.u1ahead {
+  position: relative;
+  top: 3vh;
+}
+
+.oj-logo {
+  position: relative;
+  top: 1vh;
+  left: 3vw;
+  border-radius: 100%;
+}

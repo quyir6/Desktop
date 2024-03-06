@@ -1,17 +1,31 @@
 const projects = [
   {
+    header: "Sullivan Development",
+    text: "This is the website for Sullivan Development",
+    buttonPageLink: "/sullivandevelopment/develop.html",
+    buttonText: "View Sullivan Development Page",
+    buttonDownloadLink: "/sullivandevelopment",
+  },
+  {
+    header: "OJ Social Agencies",
+    text: "This HTML code defines the main page of a project for OJ Social Agencies. It includes essential elements like meta tags for description and viewport settings, a title, and links to CSS stylesheets for styling purposes. The body contains a header with the agency's logo and navigation links, and a main section detailing the agency's services in a flip-card format, each showcasing different social media services offered by OJ Social Agencies along with their features and pricing. The page incorporates Font Awesome for icons and is structured to provide information about the agency's offerings to potential clients.",
+    buttonPageLink: "/ojsocialagencies/ojsocialagencies.html",
+    buttonText: "View OJ Social Agencies Page",
+    buttonDownloadLink: "/ojsocialagencies",
+  },
+  {
     header: "Moore Lumber Bennett Page",
-    text: "Placeholder text",
+    text: "This HTML code represents a webpage for Bennett Moore Lumber, serving as an online platform for customers to learn about the store, its services, and team. The page includes a header with navigation links to different sections like departments, store services, and locations. It also provides information about the store's address, general manager, and operating hours. Additionally, the webpage displays a map showing the store's location, along with contact information and services offered such as pickup and delivery options, store services like glass cutting and key cutting, and building material services. Towards the end, there's a section introducing the store team and a footer containing links to various sections including about us, building materials, contractors, and store services, along with social media links. JavaScript libraries are imported for icons and functionality enhancements.",
     buttonPageLink: "/moorelbrhtml/moorelbr.html",
     buttonText: "View Moore Lumber Bennett Page",
-    buttonDownloadLink: "/moorelbrhtml/moorelbr.html",
+    buttonDownloadLink: "/moorelbrhtml",
   },
   {
     header: "Moore Lumber Shopping Page",
-    text: "Placeholder text",
+    text: "This code defines an array of products, each with specific attributes such as image, title, base price, available lengths, and treatments. It generates HTML elements dynamically for each product, including dropdown menus for selecting lengths and treatments, and a button to add the product to the cart. Event listeners are added to the length and treatment dropdowns to update the available treatment options and display the correct price based on the selected length and treatment. The code ensures a smooth user experience for browsing and purchasing dimensional lumber and plywood products online, allowing for easy customization and addition of new products",
     buttonPageLink: "/moorelbrhtml/moorelbrshopping.html",
     buttonText: "View Moore Lumber Shopping Page",
-    buttonDownloadLink: "/moorelbrhtml/moorelbrshopping.html",
+    buttonDownloadLink: "/moorelbrhtml",
   },
   {
     header: "Rock Paper Scissors Game",
