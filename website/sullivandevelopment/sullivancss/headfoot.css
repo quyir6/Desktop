@@ -160,6 +160,7 @@ header ul {
     display: none;
   }
   .off-screen-menu {
+    -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     height: 100vh;
     width: 100%;
