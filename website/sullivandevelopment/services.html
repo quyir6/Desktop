@@ -10,7 +10,12 @@
   </head>
   <body>
     <header>
-      <a href="./develop.html">
+      <button class="hamburger hamburger--collapse" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"> </span>
+        </span>
+      </button>
+      <a class="logo-parent" href="./develop.html">
         <img
           src="./sullivanimg/SullivanDevelopmentLogo.svg"
           alt="Sullivan Development Logo"
@@ -19,17 +24,28 @@
       </a>
       <ul>
         <u1 class="headercat"><a href="./services.html">Services</a></u1>
-        <u1 class="headercat"><a href="#">Intrest</a></u1>
-        <u1 class="headercat"><a href="#">About</a></u1>
+        <u1 class="headercat"><a href="./interest.html">Interest</a></u1>
+        <u1 class="headercat"><a href="./about.html">About</a></u1>
       </ul>
     </header>
+
+    <div class="off-screen-menu">
+      <ul>
+        <a href="./services.html" class="header-link"> Services </a>
+        <br /><a href="./interest.html" class="header-link"> Interest </a>
+        <br /><a href="./about.html" class="header-link"> About </a>
+      </ul>
+    </div>
+
     <div class="main">
       <h1 class="main-h1">Our Services</h1>
       <div class="grid">
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <h2><i class="fa-solid fa-repeat"></i></h2>
+              <button class="flip-button">
+                <h2><i class="fa-solid fa-repeat"></i></h2>
+              </button>
               <h2>Custom Web Application Development</h2>
               <ul>
                 <li>
@@ -46,9 +62,11 @@
               </ul>
             </div>
             <div class="flip-card-back">
-              <h2><i class="fa-solid fa-repeat"></i></h2>
+              <button class="flip-button">
+                <h2><i class="fa-solid fa-repeat"></i></h2>
+              </button>
               <h2>Custom Web Application Development</h2>
-              <p>
+              <p class="back-p">
                 Our custom web application development service caters to
                 businesses and organizations seeking tailor-made solutions to
                 address specific needs and requirements. Whether you're looking
@@ -60,9 +78,9 @@
               </p>
               <div>
                 <h2>Basic</h2>
-                <p>$200</p>
+                <p>Starting at: $200</p>
                 <h2>Premium</h2>
-                <p>$750</p>
+                <p>Starting at: $750</p>
               </div>
             </div>
           </div>
@@ -70,7 +88,9 @@
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <h2><i class="fa-solid fa-repeat"></i></h2>
+              <button class="flip-button">
+                <h2><i class="fa-solid fa-repeat"></i></h2>
+              </button>
               <h2>E-commerce Website Development</h2>
               <ul>
                 <li>
@@ -88,9 +108,11 @@
               </ul>
             </div>
             <div class="flip-card-back">
-              <h2><i class="fa-solid fa-repeat"></i></h2>
+              <button class="flip-button">
+                <h2><i class="fa-solid fa-repeat"></i></h2>
+              </button>
               <h2>E-commerce Website Development</h2>
-              <p>
+              <p class="back-p">
                 Our e-commerce website development service empowers businesses
                 to establish a robust online presence and drive sales through a
                 secure and user-friendly online store. Whether you're a small
@@ -100,15 +122,15 @@
                 for your customers.
               </p>
               <h2>Basic</h2>
-              <p>$500</p>
+              <p>Starting at:$500</p>
               <h2>Premium</h2>
-              <p>$1000</p>
+              <p>Starting at: $1000</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-
+    <script src="./sullivanjs/headfoot.js"></script>
     <script
       src="https://kit.fontawesome.com/75cb04a6d4.js"
       crossorigin="anonymous"

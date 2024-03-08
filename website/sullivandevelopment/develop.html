@@ -6,12 +6,17 @@
     <meta name="description" content="Sullivan Development" />
     <title>Sullivan Development</title>
     <link rel="icon" href="./sullivanimg/logoicon.png" />
-    <link rel="stylesheet" href="./sullivancss/headfoot.css">
+    <link rel="stylesheet" href="./sullivancss/headfoot.css" />
     <link rel="stylesheet" href="./sullivancss/develop.css" />
   </head>
   <body>
     <header>
-      <a href="./develop.html">
+      <button class="hamburger hamburger--collapse" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"> </span>
+        </span>
+      </button>
+      <a class="logo-parent" href="./develop.html">
         <img
           src="./sullivanimg/SullivanDevelopmentLogo.svg"
           alt="Sullivan Development Logo"
@@ -20,31 +25,56 @@
       </a>
       <ul>
         <u1 class="headercat"><a href="./services.html">Services</a></u1>
-        <u1 class="headercat"><a href="#">Intrest</a></u1>
-        <u1 class="headercat"><a href="#">About</a></u1>
+        <u1 class="headercat"><a href="./interest.html">Interest</a></u1>
+        <u1 class="headercat"><a href="./about.html">About</a></u1>
       </ul>
     </header>
+
+    <div class="off-screen-menu">
+      <ul>
+        <a href="./services.html" class="header-link"> Services </a>
+        <br /><a href="./interest.html" class="header-link"> Interest </a>
+        <br /><a href="./about.html" class="header-link"> About </a>
+      </ul>
+    </div>
 
     <main>
       <div class="welcome-msg">
         <h1>Welcome To Sullivan Development</h1>
       </div>
       <div class="main-info-parent">
-        </div>
         <div class="info">
-          <h2>Looking to have your dream website built for you?</h2>
-          <h3>
-            When having your website built it is important that everything about
-            that website it perfect. Wether you are a business owner, blogger,
-            or just a person wanting a website. We will make every detail stand
-            out.
-          </h3>
-          <p>You want someone that know what they are doing and can make imagination into a website for you. <br> If this you click the get started button below.</p>
-          <a href="Intrest Form" class="get-started">
-            <h2 class="get-started">Get Started</h2>
+          <img src="./sullivanimg/background.svg" alt="Computer" />
+        </div>
+        <div class="info-1">
+          <h2>Crafting Digital Experiences That Inspire</h2>
+          <p>
+            At Sullivan Development, we're more than just a web development
+            company - we're your partners in digital transformation. With a
+            relentless focus on creativity, innovation, and excellence, we
+            specialize in bringing your digital vision to life. <br /><br />
+
+            Our team of seasoned professionals combines technical expertise with
+            a passion for design to create stunning websites that captivate
+            audiences and drive results. From sleek and modern designs to robust
+            e-commerce platforms, we tailor each project to your unique needs,
+            ensuring a seamless and unforgettable user experience. <br /><br />
+
+            But our commitment to your success doesn't end at launch. We're here
+            to support you every step of the way, providing ongoing maintenance,
+            updates, and optimization to keep your website at the forefront of
+            your industry. <br /><br />
+
+            Ready to take your online presence to new heights? Let's collaborate
+            and turn your vision into reality. Welcome to Sullivan Development -
+            where innovation meets excellence.
+          </p>
+          <a href="./interest.html" class="get-started">
+            <h2 class="get-started">Get Started! 🚀</h2>
           </a>
         </div>
       </div>
     </main>
+    <script src="./sullivanjs/headfoot.js"></script>
   </body>
 </html>

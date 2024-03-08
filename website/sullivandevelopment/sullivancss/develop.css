@@ -1,41 +1,51 @@
+body {
+  background-image: url(../sullivanimg/mainpage.jpg);
+}
+
 .welcome-msg {
   position: relative;
   top: 20vh;
-  color: #cb6ce6;
+  color: blue;
   text-align: center;
 }
 
 .info {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  -webkit-box-shadow: 0px 0px 5px 2px rgba(203, 108, 230, 1);
-  -moz-box-shadow: 0px 0px 5px 2px rgba(203, 108, 230, 1);
-  box-shadow: 0px 0px 5px 2px rgba(203, 108, 230, 1);
-  height: 20rem;
   position: relative;
   top: 23vh;
-  width: 90%;
+  width: 45vw;
+  margin-left: 2.5vw;
+}
+
+.info-1 {
+  position: relative;
+  top: 23vh;
+  width: 45vw;
+  margin-left: 2.5vw;
+  backdrop-filter: blur(10px);
+  height: auto;
+  color: blue;
+  border-radius: 5%;
 }
 
 .info h2 {
   margin-top: 1rem;
   color: #5ce1e6;
+  display: flex;
+  margin-bottom: 5rem;
 }
-.info h3 {
-  color: #cb6ce6;
-  margin-left: 5%;
-  margin-right: 5%;
-}
+
 .get-started {
-  border: none;
   padding: 10px;
   cursor: pointer;
   margin-bottom: 1rem;
   background: transparent;
+  text-decoration: none;
+  color: blue;
 }
 .info p {
   color: #5ce1e6;
+  display: flex;
+  justify-content: center;
 }
 
 .img {
@@ -44,5 +54,34 @@
 
 .main-info-parent {
   display: grid;
-  grid-template-columns: 2, 1fr;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.info img {
+  width: 45vw;
+  position: relative;
+  top: 2rem;
+  border-radius: 10%;
+}
+
+@media only screen and (max-width: 800px) {
+  .main-info-parent {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .info {
+    margin: auto;
+    width: 80%;
+    margin-bottom: 10rem;
+  }
+  .info-1 {
+    margin: auto;
+    width: 80%;
+    margin-bottom: 10rem;
+  }
+
+  .info img {
+    width: 100%;
+    margin: auto;
+  }
 }
