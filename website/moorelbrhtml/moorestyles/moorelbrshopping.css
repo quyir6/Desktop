@@ -11,6 +11,7 @@ body {
   display: flex;
   justify-content: center;
   color: #211e5e;
+  text-wrap: nowrap;
 }
 
 .products {
@@ -124,4 +125,17 @@ body {
 
 .closing-text {
   text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .products {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .product-container {
+    width: 80%;
+    margin: auto;
+  }
+  .title h1 {
+    font-size: 1.5em;
+  }
 }

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./styles/headfoot.css" />
+    <link rel="stylesheet" href="./styles/login.css" />
+  </head>
+  <body>
+    <header>
+      <div class="scrollmenu">
+        <a href="#">Home</a>
+        <a href="#">Free Trial Questions</a>
+        <a href="#">Pricing</a>
+        <a href="#">Practice</a>
+        <a href="#">Modules</a>
+        <a href="#">FAQ</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="head-top">
+        <div class="logo"><h1>Logo Here</h1></div>
+        <div class="dropdown-parent">
+          <div class="dropdown">
+            <button><i class="fa-solid fa-user"></i></button>
+            <div class="dropdown-content">
+              <a href="#">Dashboard</a>
+              <a href="#">Subscription</a>
+              <a href="#">Settings</a>
+              <a href="#">Profile</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="login-box">
+      <h1 class="login-h1">Login</h1>
+
+      <div class="password-box-parent">
+        <form class="password-box" id="inputBox">
+          <i class="fa-solid fa-user"></i>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            class="username-box"
+            placeholder="Username"
+          />
+          <div class="password-container">
+            <i class="fa-solid fa-key"></i>
+
+            <input
+              type="password"
+              name="password"
+              id="password-box"
+              class="password-box"
+              placeholder="Password"
+            />
+
+            <span class="password-eye" onclick="eyeButtonOne()">
+              <i id="hide-1" class="fa-regular fa-eye"></i>
+              <i id="hide-2" class="fa-regular fa-eye-slash"></i>
+            </span>
+          </div>
+        </form>
+      </div>
+
+      <button type="submit" class="login-button" onclick="handleSubmit(event)">
+        LOGIN
+      </button>
+    </div>
+
+    <div class="dark-mode-button">
+      <button onclick="darkMode()">Dark Mode</button>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/75cb04a6d4.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./scripts/cmfas.js"></script>
+    <script src="./scripts/login.js"></script>
+  </body>
+</html>

@@ -1,0 +1,132 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header {
+  color: #343a40;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  z-index: 3;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #20c997;
+  width: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  right: 0vw;
+  border-radius: 5%;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  position: relative;
+  margin: 0;
+}
+.dropdown-content a:hover {
+  background-color: #17a2b8;
+  z-index: 3;
+  border-radius: 5%;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  z-index: 3;
+  margin: 0;
+}
+
+.dropdown-content:hover {
+  display: flex;
+  justify-content: center;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+  z-index: 3;
+  margin: 0;
+}
+
+.dropdown-parent {
+  top: 12vh;
+  z-index: 3;
+}
+
+.dropdown-parent button {
+  font-size: 1.5em;
+  color: #fd7e14;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.dropdown-parent button:hover {
+  color: #ffc107;
+}
+
+.logo {
+  position: relative;
+  left: 3vw;
+}
+
+.head-top {
+  background-image: linear-gradient(to right, #007bff, #17a2b8, #20c997);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.header-info {
+  position: fixed;
+  right: 2rem;
+  top: 2vh;
+  display: flex;
+  z-index: 0;
+}
+
+.header-a {
+  display: inline-block;
+  color: #343a40;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  z-index: 1;
+  margin-right: 10vw;
+}
+
+.header-info a:hover {
+  background-image: linear-gradient(to left, #007bff, #17a2b8, #20c997);
+  border-radius: 50px;
+}
+
+.dark-mode {
+  background-color: #333;
+}
+
+.dark-mode-button {
+  position: relative;
+  top: 10rem;
+  text-align: center;
+}
+.dark-mode-button button {
+  padding: 16px;
+  background-color: #17a2b8;
+  color: #333;
+  border: none;
+  border-radius: 50px;
+}

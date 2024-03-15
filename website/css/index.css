@@ -1,13 +1,8 @@
-
-
-body{
+body {
   background-color: #382933;
 }
 
-
-
-
-.main-page-img{
+.main-page-img {
   height: 40rem;
   width: 30rem;
   border-radius: 5rem;
@@ -17,7 +12,7 @@ body{
   transform: translate(0%, 20%);
 }
 .intro-name {
-  color: #3B5249;
+  color: #3b5249;
   font-size: 40px;
   position: absolute;
   top: 20%;
@@ -25,11 +20,11 @@ body{
   right: 0;
 }
 .intro-name-1 {
-  color: #A4B494;
+  color: #a4b494;
   margin-left: 5px;
   font-size: 40px;
 }
-.intro-name-2{
+.intro-name-2 {
   color: #519872;
   margin-left: 5px;
   font-size: 40px;
@@ -40,11 +35,11 @@ body{
   top: 35%;
   left: 51%;
   right: 7%;
-  color: #A4B494;
+  color: #a4b494;
   font-size: 30px;
 }
 
-.left-arrow{
+.left-arrow {
   height: 4rem;
   mix-blend-mode: color-burn;
   background-color: transparent;
@@ -52,7 +47,7 @@ body{
   top: 150%;
   transform: translate(0%, 150%);
 }
-.right-arrow{
+.right-arrow {
   height: 4rem;
   mix-blend-mode: color-burn;
   background-color: transparent;
@@ -62,12 +57,10 @@ body{
   transform: translate(0%, 150%);
 }
 
-.contact-info-section-img-parent{
+.contact-info-section-img-parent {
   display: flex;
   justify-content: center;
 }
-
-
 
 @media only screen and (max-width: 1300px) {
   .intro-name {
@@ -85,14 +78,14 @@ body{
 }
 
 @media only screen and (max-width: 1120px) {
- .main-page-img {
-  height: 35rem;
-  width: 25rem;
- }
+  .main-page-img {
+    height: 35rem;
+    width: 25rem;
+  }
 }
 
 @media only screen and (max-width: 935px) {
-  .intro-name{
+  .intro-name {
     font-size: 30px;
   }
   .intro-name-1 {
@@ -106,7 +99,7 @@ body{
   }
 }
 
-@media only screen  and (max-width:920px) {
+@media only screen and (max-width: 920px) {
   .main-page-img {
     margin-left: 1rem;
     height: 30rem;
@@ -114,19 +107,19 @@ body{
   }
 }
 
-@media only screen and (max-width:750px) {
+@media only screen and (max-width: 750px) {
   .main-page-img {
     border-radius: 500px;
     height: 35rem;
     width: 25rem;
     margin: none;
   }
-  .intro-name{
+  .intro-name {
     top: 50rem;
     left: 0;
     text-align: center;
   }
-  
+
   .intro-text {
     top: 56rem;
     left: 5%;
@@ -142,9 +135,10 @@ body{
   }
 }
 
-@media  only screen  and (max-width: 350px) {
+@media only screen and (max-width: 350px) {
   .main-page-img {
     height: 30rem;
     width: 20rem;
+    margin: auto;
   }
 }
